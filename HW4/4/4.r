@@ -126,7 +126,4 @@ geb_
 start_date = as.POSIXlt(tab[["Verleihung"]])
 result = start_date$year - as.POSIXlt(geb_)$year
 
-fibo <- rep(1, 8)
-sapply(3:n, function(i) {
-  fibo[i-1] + fibo[i-2]
-})
+
